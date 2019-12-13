@@ -120,4 +120,4 @@ function ajax({ method = 'get' , timeout = 5000, async = true , data = {}, url})
 }
 
 
-ajax({url: 'http://www.baidu.com'}).then((res) => console.log(res, 'res'))
+// ajax({url: 'http://www.baidu.com'}).then((res) => console.log(res, 'res'))
