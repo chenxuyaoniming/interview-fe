@@ -25,3 +25,21 @@ function mySort(arr) {
         console.log(err)
     }
 }
+
+
+
+
+let obj1 = {
+    name: 'obj1',
+    say: function() {
+        return () => console.log(this.name)
+    }
+}
+
+let obj2 = {
+    name: 'obj2'
+}
+
+obj1.say()()
+obj1.say().call(obj2)
+obj1.say.call(obj2)()
