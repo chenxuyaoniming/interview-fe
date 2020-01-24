@@ -40,6 +40,8 @@ let obj2 = {
     name: 'obj2'
 }
 
-obj1.say()()
-obj1.say().call(obj2)
-obj1.say.call(obj2)()
+// obj1.say()()
+// obj1.say().call(obj2)
+// obj1.say.call(obj2)()
+
+console.log(`随机数生成-----------${Math.ceil(Math.random()*100)}`)
